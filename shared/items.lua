@@ -1658,4 +1658,16 @@ QBShared.Items = {
 	["juice_royale"] 		 	 	 = {["name"] = "juice_royale",           		["label"] = "Juice",	 		["weight"] = 1000, 		["type"] = "item", 		["image"] = "bs_softdrink.png", 		["unique"] = true, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil, ["created"] = nil, ["decay"] = 1.0,  ["description"] = "USED IN ROYALE ONLY."},
 	["pug-vr"] 		 	 	 		= {["name"] = "pug-vr",           		["label"] = "Vr Headset",	 		["weight"] = 2000, 		["type"] = "item", 		["image"] = "pug-vr.png", 		["unique"] = true, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil, ["created"] = nil, ["decay"] = 30.0,  ["description"] = "A simulation inside of a simulation."},
 
+	-- Radar Gun
+	['weapon_prolaser4'] = {
+		['name'] = 'weapon_prolaser4',
+		['label'] = 'Lidar Gun',
+		['weight'] = 1000,
+		['type'] = 'weapon',
+		['ammotype'] = 'nil',
+		['image'] = 'weapon_prolaser4.png',
+		['unique'] = true,
+		['useable'] = false,
+		['description'] = 'ProLaser4 Lidar Gun'
+	},
 }
