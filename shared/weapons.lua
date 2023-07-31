@@ -185,4 +185,10 @@ QBShared.Weapons = {
 	-- nx-taser
 	[`weapon_taser`]                 = {['name'] = 'weapon_taser',             ['label'] = 'PD Taser',                 ['ammotype'] = 'AMMO_STUNGUN',           ['damagereason'] = 'Tased'},
 
+	[`weapon_prolaser4`] = { 
+		['name'] = 'weapon_prolaser4',
+		['label'] = 'Lidar Gun',
+		['ammotype'] = 'nil',
+		['damagereason'] = 'Ticketed / Fined / Caught Speeding / Slow Down'
+	},
 }
