@@ -1030,7 +1030,7 @@ QBShared.Items = {
 	['m-potato'] 	               	 = {['name'] = 'm-potato', 	                	['label'] = 'Potato', 	         	['weight'] = 100, 		['type'] = 'item', 		['image'] = 'm-potato.png', 	           	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Good For Mashing'},
 
 	--Crazy Zipties & HeadBags
-	['ziptie']						 = {['name'] = 'ziptie', 						['label'] = 'Zip tie',              ['weight'] = 300, 		['type'] = 'item', 		['image'] = 'ziptie.png',      				['unique'] = false, 	['useable'] = true,		['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A zip tie'},
+	-- ['ziptie']						 = {['name'] = 'ziptie', 						['label'] = 'Zip tie',              ['weight'] = 300, 		['type'] = 'item', 		['image'] = 'ziptie.png',      				['unique'] = false, 	['useable'] = true,		['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A zip tie'},
 	['headbag']						 = {['name'] = 'headbag', 						['label'] = 'Head Bag',             ['weight'] = 500, 		['type'] = 'item', 		['image'] = 'headbag.png',      			['unique'] = true, 		['useable'] = true,		['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A bag to cover someones head'},
 
 	--Jim-Crafting
