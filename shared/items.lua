@@ -1696,6 +1696,10 @@ QBShared.Items = {
 	['fish10'] 				 		 = {['name'] = 'fish10', 				    	['label'] = 'Fighting Fish', 			['weight'] = 300, 		['type'] = 'item', 		['image'] = 'fightingfish.png', 		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'An incredibly popular freshwater fish with beautiful and vividly coloured tails'},
 	['fish11'] 			 			 = {['name'] = 'fish11', 				    	['label'] = 'Tropical Yellow Tail', 	['weight'] = 400, 		['type'] = 'item', 		['image'] = 'yellowtailfish.png', 		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'An exotic tropical yellow spotted fishy. I wonder what species this is? I haven\'t seen it before!'},	
 
+	-- qb-carradio thing
 	['auxcord'] 			 	 	 = {['name'] = 'auxcord', 			  			['label'] = 'Aux Cord', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'auxcord.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,    	['combinable'] = nil,   ['description'] = 'Aux Cord for Car Radio!'},
+
+	-- cash as item
+	["cash"]              			 = {["name"] = "cash",                  ["label"] = "Cash",                 ["weight"] = 0,         ["type"] = "item",         ["image"] = "cash.png",             ["unique"] = true,     ["useable"] = false,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "cash"},
 
 }
