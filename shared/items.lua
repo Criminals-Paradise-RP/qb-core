@@ -1700,6 +1700,6 @@ QBShared.Items = {
 	['auxcord'] 			 	 	 = {['name'] = 'auxcord', 			  			['label'] = 'Aux Cord', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'auxcord.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,    	['combinable'] = nil,   ['description'] = 'Aux Cord for Car Radio!'},
 
 	-- cash as item
-	["cash"]              			 = {["name"] = "cash",                  ["label"] = "Cash",                 ["weight"] = 0,         ["type"] = "item",         ["image"] = "cash.png",             ["unique"] = true,     ["useable"] = false,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "cash"},
+	["cash"]              			 = {["name"] = "cash",                  ["label"] = "Cash",                 ["weight"] = 0,         ["type"] = "item",         ["image"] = "cash.png",             ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Cash Money"},
 
 }
