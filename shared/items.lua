@@ -1702,4 +1702,11 @@ QBShared.Items = {
 	-- cash as item
 	["cash"]              			 = {["name"] = "cash",                  ["label"] = "Cash",                 ["weight"] = 0,         ["type"] = "item",         ["image"] = "cash.png",             ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Cash Money"},
 
+	-- ps-mdt
+	['mdtcitation'] 				 = {['name'] = 'mdtcitation', 			  	  	['label'] = 'Citation', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'citation.png', 			['unique'] = true, 		['useable'] = false, ['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Citation from a police officer!'},
+ 
+	-- cw-driftchip
+	["driftchip"] =          {["name"] = "driftchip",         ["label"] = "Drift chip",                  ["weight"] = 300, ["type"] = "item", ["image"] = "driftchip.png", ["unique"] = false, ["useable"] = true, ['shouldClose'] = false, ["combinable"] = nil, ["description"] = "Use this to tweak the ECU to enable drift mode on or off"},
+    ["driftchipbox"] =          {["name"] = "driftchipbox",         ["label"] = "Drift chip Box",                  ["weight"] = 350, ["type"] = "item", ["image"] = "driftchipbox.png", ["unique"] = false, ["useable"] = true, ['shouldClose'] = false, ["combinable"] = nil, ["description"] = "Contains a drift chip"},
+
 }
