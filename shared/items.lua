@@ -1709,4 +1709,15 @@ QBShared.Items = {
 	["driftchip"] =          {["name"] = "driftchip",         ["label"] = "Drift chip",                  ["weight"] = 300, ["type"] = "item", ["image"] = "driftchip.png", ["unique"] = false, ["useable"] = true, ['shouldClose'] = false, ["combinable"] = nil, ["description"] = "Use this to tweak the ECU to enable drift mode on or off"},
     ["driftchipbox"] =          {["name"] = "driftchipbox",         ["label"] = "Drift chip Box",                  ["weight"] = 350, ["type"] = "item", ["image"] = "driftchipbox.png", ["unique"] = false, ["useable"] = true, ['shouldClose'] = false, ["combinable"] = nil, ["description"] = "Contains a drift chip"},
 
+	-- lucid-masks
+	['mask']  = {['name'] = 'mask', ['label'] = 'Mask',  ['weight'] = 1,  ['type'] = 'item',  ['image'] = 'mask.png',  ['unique'] = true,  ['useable'] = true,  ['shouldClose'] = true,  ['combinable'] = nil, 	['description'] = ''},
+
+	-- robbery props
+	['telescope'] 				 		 = {['name'] = 'telescope', 			  	  		['label'] = 'Telescope', 			['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'telescope.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Stolen Telescope'},
+	['pcequipment'] 				 	 = {['name'] = 'pcequipment', 			  	  		['label'] = 'PC', 					['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'pcequipment.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Stolen PC'},
+	['coffeemaker'] 				 	 = {['name'] = 'coffeemaker', 			  	  		['label'] = 'Coffee Maker', 		['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'coffeemaker.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Stolen Coffee Maker'},
+	['musicequipment'] 				 	 = {['name'] = 'musicequipment', 			  	  	['label'] = 'Speaker', 				['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'musicequipment.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Stolen Speaker'},
+	['microwave'] 				 		 = {['name'] = 'microwave', 			  	  		['label'] = 'Microwave', 			['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'microwave.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Stolen Microwave'},
+	['flatscreen'] 				 		 = {['name'] = 'flatscreen', 			  	  		['label'] = 'Flatscreen TV', 		['weight'] = 2000, 		['type'] = 'item', 		['image'] = 'flatscreen.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Flatscreen TV'},
+
 }
