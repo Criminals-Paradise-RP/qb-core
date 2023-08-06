@@ -191,4 +191,7 @@ QBShared.Weapons = {
 		['ammotype'] = 'nil',
 		['damagereason'] = 'Ticketed / Fined / Caught Speeding / Slow Down'
 	},
+
+	[`weapon_beanbagshotgun`]					= {['name'] = 'weapon_beanbagshotgun',				['label'] = 'Non-Lethal Shotgun',						['ammotype'] = 'AMMO_SHOTGUN',						['damagereason'] = 'Hit by a bean bag'},
+
 }
