@@ -411,6 +411,34 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['realtor'] = {
+		label = 'Dynasty Real Estate',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'House Sales',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Business Sales',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Broker',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},
 	['taxi'] = {
 		label = 'Taxi',
 		defaultDuty = true,
