@@ -534,8 +534,37 @@ QBShared.Jobs = {
             },
         },
 	},
-	['mechanic'] = {
-		label = 'Mechanic',
+	-- ['mechanic'] = {
+	-- 	label = 'Mechanic',
+    --     type = "mechanic",
+	-- 	defaultDuty = true,
+	-- 	offDutyPay = false,
+	-- 	grades = {
+    --         ['0'] = {
+    --             name = 'Recruit',
+    --             payment = 75
+    --         },
+	-- 		['1'] = {
+    --             name = 'Novice',
+    --             payment = 100
+    --         },
+	-- 		['2'] = {
+    --             name = 'Experienced',
+    --             payment = 125
+    --         },
+	-- 		['3'] = {
+    --             name = 'Advanced',
+    --             payment = 150
+    --         },
+	-- 		['4'] = {
+    --             name = 'Manager',
+	-- 			isboss = true,
+    --             payment = 175
+    --         },
+    --     },
+	-- },
+    ['altabennys'] = {
+		label = 'Bennys',   -- ALTA STREET BENNYS
         type = "mechanic",
 		defaultDuty = true,
 		offDutyPay = false,
@@ -563,6 +592,325 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['lscustoms'] = {
+		label = 'LS Customs',   -- LS CUSTOMS IN CITY
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},
+    ['hayesautos'] = {
+		label = 'Hayes Autos',  -- HAYES AUTOS (POSTAL 9055)
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},
+    ['lscustoms68'] = {
+		label = 'Route 68 LS Customs',  -- LS CUSTOMS ROUTE 68
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},
+    ['beekers'] = {
+		label = 'Beekers Garage',   -- BEEKERS GARAGE PALETO
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},
+    ['lstuner'] = {
+		label = 'LS Tuner Shop',    -- GABZ LS TUNER SHOP
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},
+    ['lscustomsairport'] = {
+		label = 'LS Customs-Airport',   -- AIRPORT LS CUSTOMS
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},  
+    ['lscustomsps'] = {
+		label = 'Popular Street LS Customs',    -- POPULAR STREET LS CUSTOMS
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},      
+    ['ottos'] = {
+		label = 'Ottos Autos',  -- OTTOS AUTOS
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},    
+    ['hayesautos2'] = {
+		label = 'Hayes Autos Del Perro',  -- HAYES AUTOS (POSTAL 7173)
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},    
+    ['eastcustoms'] = {
+		label = 'East Customs', --EAST CUSTOMS
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},   
+    ['redline'] = {
+		label = 'Redline',  -- REDLINE
+        type = "mechanic",
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 75
+            },
+			['1'] = {
+                name = 'Novice',
+                payment = 100
+            },
+			['2'] = {
+                name = 'Experienced',
+                payment = 125
+            },
+			['3'] = {
+                name = 'Advanced',
+                payment = 150
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 175
+            },
+        },
+	},     
 	['judge'] = {
 		label = 'Honorary',
 		defaultDuty = true,
