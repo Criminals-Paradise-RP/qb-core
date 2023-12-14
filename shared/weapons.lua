@@ -173,7 +173,7 @@ QBShared.Weapons = {
 	[`weapon_ak74`] = { name = 'weapon_ak74', label = 'AK-74', caliber = '7.62x51mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
 	[`weapon_aks74`] = { name = 'weapon_aks74', label = 'AK-S74', caliber = '7.62x51mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
 	[`weapon_glock22`] = { name = 'weapon_glock22', label = 'Glock 22', caliber = '9x19mm Parabellum', weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
-	[`weapon_glock18c`] = { name = 'weapon_glock18c', label = 'Glock 18C', caliber = '9x19mm Parabellum', weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in'
+	[`weapon_glock18c`] = { name = 'weapon_glock18c', label = 'Glock 18C', caliber = '9x19mm Parabellum', weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
 	[`weapon_mp5`] = { name = 'weapon_mp5', label = 'H&K MP5', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
 
 	-- Police
