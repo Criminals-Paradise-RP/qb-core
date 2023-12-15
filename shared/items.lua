@@ -681,7 +681,7 @@ QBShared.Items = {
 
     ["skateboard"] 					 = {["name"] = "skateboard", 					["label"] = "Skateboard", 				["weight"] = 500, 		["type"] = "item", 		["image"] = "skateboard.png", 			["unique"] = true, 									["useable"] = true, 	["shouldClose"] = true, ["combinable"] = nil, ["description"] = "" },
 
-	--[[Jim-Mechanic]]
+	--Jim-Mechanic Vehicles
 	["mechanic_tools"] =    {["name"] = "mechanic_tools",   ["label"] = "Mechanic tools",		["weight"] = 0, ["type"] = "item",  ["image"] = "mechanic_tools.png",   ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Needed for vehicle repairs"},
 	["toolbox"] =           {["name"] = "toolbox",          ["label"] = "Toolbox",				["weight"] = 0, ["type"] = "item",  ["image"] = "toolbox.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Needed for Performance part removal"},
 	["ducttape"] =          {["name"] = "ducttape",         ["label"] = "Duct Tape",			["weight"] = 0, ["type"] = "item",  ["image"] = "bodyrepair.png",       ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Good for quick fixes"},
@@ -689,7 +689,7 @@ QBShared.Items = {
 
 	--Performance
 	["turbo"] =             {["name"] = "turbo",            ["label"] = "Supercharger Turbo",	["weight"] = 0, ["type"] = "item",  ["image"] = "turbo.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Who doesn't need a 65mm Turbo??"},
-	["car_armor"]=          {["name"] = "car_armor",		["label"] = "Vehicle Armor",		["weight"] = 0, ["type"] = "item",  ["image"] = "armour.png",           ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["car_armor"]=          {["name"] = "car_armor",		["label"] = "Vehicle Armor",		["weight"] = 0, ["type"] = "item",  ["image"] = "car_armour.png",           ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
 
 	["nos"]=                {["name"] = "nos",				["label"] = "NOS Bottle",			["weight"] = 0, ["type"] = "item",  ["image"] = "nos.png",              ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "A full bottle of NOS"},
 	["noscan"]=             {["name"] = "noscan",			["label"] = "Empty NOS Bottle",		["weight"] = 0, ["type"] = "item",  ["image"] = "noscan.png",           ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "An Empty bottle of NOS"},
@@ -718,6 +718,28 @@ QBShared.Items = {
 
 	["bprooftires"]=        {["name"] = "bprooftires",		["label"] = "Bulletproof Tires",	["weight"] = 0, ["type"] = "item",  ["image"] = "bprooftires.png",      ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
 	["drifttires"]=         {["name"] = "drifttires",		["label"] = "Drift Tires",			["weight"] = 0, ["type"] = "item",  ["image"] = "drifttires.png",       ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+
+	["oilp1"]=              {["name"] = "oilp1",			["label"] = "Tier 1 Oil Pump",		["weight"] = 0, ["type"] = "item",  ["image"] = "oilp1.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["oilp2"]=              {["name"] = "oilp2",			["label"] = "Tier 2 Oil Pump",		["weight"] = 0, ["type"] = "item",  ["image"] = "oilp2.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["oilp3"]=              {["name"] = "oilp3",			["label"] = "Tier 3 Oil Pump",		["weight"] = 0, ["type"] = "item",  ["image"] = "oilp3.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+
+	["drives1"]=            {["name"] = "drives1",			["label"] = "Tier 1 Drive Shaft",	["weight"] = 0, ["type"] = "item",  ["image"] = "drives1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["drives2"]=            {["name"] = "drives2",			["label"] = "Tier 2 Drive Shaft",	["weight"] = 0, ["type"] = "item",  ["image"] = "drives2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["drives3"]=            {["name"] = "drives3",			["label"] = "Tier 3 Drive Shaft",	["weight"] = 0, ["type"] = "item",  ["image"] = "drives3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+
+	["cylind1"]=            {["name"] = "cylind1",			["label"] = "Tier 1 Cylinder Head",	["weight"] = 0, ["type"] = "item",  ["image"] = "cylind1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["cylind2"]=            {["name"] = "cylind2",			["label"] = "Tier 2 Cylinder Head",	["weight"] = 0, ["type"] = "item",  ["image"] = "cylind2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["cylind3"]=            {["name"] = "cylind3",			["label"] = "Tier 3 Cylinder Head",	["weight"] = 0, ["type"] = "item",  ["image"] = "cylind3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+
+	["cables1"]=            {["name"] = "cables1",			["label"] = "Tier 1 Battery Cables",["weight"] = 0, ["type"] = "item",  ["image"] = "cables1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["cables2"]=            {["name"] = "cables2",			["label"] = "Tier 2 Battery Cables",["weight"] = 0, ["type"] = "item",  ["image"] = "cables2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["cables3"]=            {["name"] = "cables3",			["label"] = "Tier 3 Battery Cables",["weight"] = 0, ["type"] = "item",  ["image"] = "cables3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+
+	["fueltank1"]=          {["name"] = "fueltank1",		["label"] = "Tier 1 Fuel Tank",     ["weight"] = 0, ["type"] = "item",  ["image"] = "fueltank1.png",        ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["fueltank2"]=          {["name"] = "fueltank2",		["label"] = "Tier 2 Fuel Tank",     ["weight"] = 0, ["type"] = "item",  ["image"] = "fueltank2.png",        ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+	["fueltank3"]=          {["name"] = "fueltank3",		["label"] = "Tier 3 Fuel Tank",     ["weight"] = 0, ["type"] = "item",  ["image"] = "fueltank3.png",        ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
+
+	["antilag"]=            {["name"] = "antilag",		    ["label"] = "AntiLag",              ["weight"] = 0, ["type"] = "item",  ["image"] = "antiLag.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
 
 	--Cosmetics
 	["underglow_controller"]={["name"] = "underglow_controller",["label"] = "Neon Controller",	["weight"] = 0, ["type"] = "item",  ["image"] = "underglow_controller.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "RGB LED Vehicle Remote"},
@@ -751,9 +773,9 @@ QBShared.Items = {
 	["sparkplugs"]=         {["name"] = "sparkplugs",       ["label"] = "Spark Plugs",			["weight"] = 0, ["type"] = "item",  ["image"] = "sparkplugs.png",       ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
 	["carbattery"]=         {["name"] = "carbattery",       ["label"] = "Car Battery",			["weight"] = 0, ["type"] = "item",  ["image"] = "carbattery.png",       ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
 	["axleparts"]=          {["name"] = "axleparts",        ["label"] = "Axle Parts",			["weight"] = 0, ["type"] = "item",  ["image"] = "axleparts.png",        ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
-	["sparetire"]=          {["name"] = "sparetire",        ["label"] = "Spare Tire",			["weight"] = 0, ["type"] = "item",  ["image"] = "sparetire.png",        ["unique"] = true,  ["useable"] = false,["shouldClose"] = false,["description"] = ""},
-   
-	--[[Simple Farming]]
+	["sparetire"]=          {["name"] = "sparetire",        ["label"] = "Spare Tire",			["weight"] = 0, ["type"] = "item",  ["image"] = "sparetire.png",        ["unique"] = true,  ["useable"] = false,["shouldClose"] = false,["description"] = ""},   
+
+--[[Simple Farming]]
 	["apple"] 							= {["name"] = "apple",  	     		["label"] = "Apple",	 		["weight"] = 25, 		["type"] = "item", 		["image"] = "apple.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 	["apple_juice"] 					= {["name"] = "apple_juice",  	     	["label"] = "Apple Juice",	 	["weight"] = 100, 		["type"] = "item", 		["image"] = "apple_juice.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 	["emptycowbucket"] 					= {["name"] = "emptycowbucket",  	    ["label"] = "Empty Bucket",	 	["weight"] = 25, 		["type"] = "item", 		["image"] = "emptybucket.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
@@ -1779,5 +1801,17 @@ QBShared.Items = {
     ['fingerprintkit']               = {['name'] = 'fingerprintkit',                ['label'] = 'Fingerprint Kit',          ['weight'] = 1000,      ['type'] = 'item',      ['image'] = 'fingerprintkit.png',       ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A small kit that includes fingerprint dust, chemicals, and a brush for developing fingerprints'},
     ['mikrosil']                     = {['name'] = 'mikrosil',                      ['label'] = 'Mikrosil',                 ['weight'] = 1000,      ['type'] = 'item',      ['image'] = 'mikrosil.png',             ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Two tubes of silicon casting material used to lift fingerprints from irregular surfaces'},
     ['fingerprinttape']              = {['name'] = 'fingerprinttape',               ['label'] = 'Fingerprint Tape',         ['weight'] = 1000,      ['type'] = 'item',      ['image'] = 'fingerprinttape.png',      ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Extra clear tape used to lift fingerprints from smooth, nonporous surfaces'},
+
+	['powerbank']                       = {['name'] = 'powerbank',                       ['label'] = 'Power Bank',                 ['weight'] = 200,         ['type'] = 'item',         ['image'] = 'powerbank.png',             ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,        ['combinable'] = nil,   ['description'] = 'Incredible portable charger!'},
+
+	-- ars_ambulancejob
+	["medicalbag"]               = {["name"] = "medicalbag",                       ["label"] = "Medical Bag",           ["weight"] = 220,       ["type"] = "item",      ["image"] = "medicalbag.png",       ["unique"] = true,  ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "A comprehensive medical kit for treating injuries and ailments."},
+	["defibrillator"]            = {["name"] = "defibrillator",                ["label"] = "Defibrillator",         ["weight"] = 220,       ["type"] = "item",      ["image"] = "defibrillator.png",        ["unique"] = true,  ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Used for reviving patients."},
+	["tweezers"]                 = {["name"] = "tweezers",                 ["label"] = "tweezers",          ["weight"] = 220,       ["type"] = "item",      ["image"] = "tweezers.png",         ["unique"] = true,  ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Precision tweezers for safely removing foreign objects, such as bullets, from wounds."},
+	["burncream"]                = {["name"] = "burncream",                ["label"] = "burncream",         ["weight"] = 220,       ["type"] = "item",      ["image"] = "burncream.png",        ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Specialized cream for treating and soothing minor burns and skin irritations."},
+	["suturekit"]                = {["name"] = "suturekit",                ["label"] = "suturekit",         ["weight"] = 220,       ["type"] = "item",      ["image"] = "suturekit.png",        ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "A kit containing surgical tools and materials for stitching and closing wounds."},
+	["icepack"]                  = {["name"] = "icepack",                  ["label"] = "icepack",           ["weight"] = 220,       ["type"] = "item",      ["image"] = "icepack.png",          ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "An ice pack used to reduce swelling and provide relief from pain and inflammation."},
+	["stretcher"]                = {["name"] = "stretcher",                ["label"] = "stretcher",         ["weight"] = 220,       ["type"] = "item",      ["image"] = "stretcher.png",            ["unique"] = true,  ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "An ice pack used to reduce swelling and provide relief from pain and inflammation."},
+	["emstablet"]                = {["name"] = "emstablet",                ["label"] = "emstablet",         ["weight"] = 220,       ["type"] = "item",      ["image"] = "emstablet.png",            ["unique"] = true,  ["useable"] = true,     ["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Ems tablet."},
 
 }
