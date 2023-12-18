@@ -7,7 +7,6 @@ QBShared.Jobs = {
 	lawyer = { label = 'Law Firm', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Associate', payment = 100 } } },
 	trucker = { label = 'Trucker', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 100 } } },
 	garbage = { label = 'Garbage', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Collector', payment = 100 } } },
-	postal = { label = 'GoPostal', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Delivery Driver', payment = 100 } } },
 
 	police = {
 		label = 'Los Santos Police Department',
