@@ -406,6 +406,7 @@ end
 function QBCore.Functions.DeleteVehicle(vehicle)
     SetEntityAsMissionEntity(vehicle, true, true)
     DeleteVehicle(vehicle)
+    TriggerEvent("Pug:client:PutFlatbedAwayCustomEvent")
 end
 
 function QBCore.Functions.GetPlate(vehicle)
