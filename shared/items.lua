@@ -1494,7 +1494,7 @@ QBShared.Items = {
 	["crisps"] 						= {["name"] = "crisps",  	    			["label"] = "Crisps",					["weight"] = 100, 		["type"] = "item", 		["image"] = "chips.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(20, 30) },
 
 	--Rebel Money Wash
-	['wetbills'] 					= {['name'] = 'wetbills', 			  	  	['label'] = 'Wet Bills', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'wetbills.png', 	['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Money?'},
+	['wetbills'] 					= {['name'] = 'wetbills', 			  	  	['label'] = 'Wet Bills', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'wetbills.png', 	['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Money?'},
 
 	--[[ITEMS FOR BUSINESS MENUS]]
 	['uwucafemenu1'] 				= {['name'] = 'uwucafemenu1', 			    ['label'] = 'Uwu Menu', 				['weight'] = 0, 		['type'] = 'item', 		['image'] = 'menu.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   		['combinable'] = nil,   ['description'] = 'Uwu Cafe Menu!'},
