@@ -138,9 +138,44 @@ QBShared.Jobs = {
 			['4'] = { name = 'Manager', isboss = true, payment = 150 },
 		},
 	},
-    sanders = {
-		label = 'Sanders Motorcycles',
-		type = 'mechanic',
+	lsmotors = {
+		label = 'LS Motors',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Showroom Sales', payment = 75 },
+			['2'] = { name = 'Business Sales', payment = 100 },
+			['3'] = { name = 'Finance', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+		},
+	},
+	luxuryautos = {
+		label = 'Luxury Autos',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Showroom Sales', payment = 75 },
+			['2'] = { name = 'Business Sales', payment = 100 },
+			['3'] = { name = 'Finance', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+		},
+	},
+    westernmotors = {
+		label = 'Western Motorcycles',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+		},
+	},
+	pdmdealer = {
+		label = 'PDM | Used Cars',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
