@@ -1798,7 +1798,7 @@ QBShared.Items = {
 	-- lb-phone
 	['powerbank']                       = {['name'] = 'powerbank',                       ['label'] = 'Power Bank',                 ['weight'] = 200,         ['type'] = 'item',         ['image'] = 'powerbank.png',             ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,        ['combinable'] = nil,   ['description'] = 'Incredible portable charger!'},
 
-	-- pug-sabotage
+	-- envi-sabotage
 	['phone_bomb']                        = {['name'] = 'phone_bomb',                     ['label'] = 'Detonator Device',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'impact_bomb.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
 	['remote_bomb']                   = {['name'] = 'remote_bomb',                     ['label'] = 'Remote Explosive',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'impact_bomb.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
 	['ignition_bomb']                   = {['name'] = 'ignition_bomb',                 ['label'] = 'Ignition Explosive',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'ignition_bomb.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
